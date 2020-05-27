@@ -1,0 +1,9 @@
+@mixin responsive-mobile() {
+    @media (max-width: 533px) {
+        @content;
+    }
+}
+
+@mixin hover{
+    border: 1px solid $second_main_color;
+}

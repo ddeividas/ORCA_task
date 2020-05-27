@@ -1,0 +1,41 @@
+.toogle_menu_bar{
+    position: absolute;
+    top: 70px;
+    bottom: 396px;
+    left: 0;
+    right: 0;
+    background-color: rgba($color: $second_main_color, $alpha: 1);
+    overflow: hidden;
+    width: 0;
+    transition: .5s ease;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 100% 55px;
+    z-index: 5;
+    @include responsive-mobile(){
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 0px;
+    }
+    h4{
+        font-family: $main_font;
+        color: $header_text_color;
+    }
+    ul{
+      text-align: center;
+      padding: 0;
+      margin-top: 40px;
+      li{
+        list-style-type: none;
+        margin: 10px 0px;
+        a{
+          text-decoration: none;
+          color: $header_text_color;
+          font-family: $main_font;
+        }
+      }
+    }
+  }
+
+  .overlay{
+      width: 35%;
+  }

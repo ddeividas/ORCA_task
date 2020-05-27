@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,AAAA,CACA,MAAM,CAAE,GAAG,CAWd,AAZD,AAEI,IAFA,CAEA,gBAAgB,AAAA,CACZ,gBAAgB,CAAE,+BAA+B,CACjD,MAAM,CAAE,KAAK,CACb,KAAK,CAAE,KAAK,CACZ,eAAe,CAAE,KAAK,CACtB,iBAAiB,CAAE,SAAS,CAC5B,mBAAmB,CAAE,YAAY,CAGpC",
+    "sources": [
+        "../scss/background.scss"
+    ],
+    "names": [],
+    "file": "background.min.css"
+}

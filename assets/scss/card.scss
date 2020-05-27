@@ -1,0 +1,24 @@
+.card_parent{
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    @include responsive-mobile(){
+        align-items: flex-start;
+    }
+    .card{
+        background-color: #ffffff;
+        width: 533px;
+        border-radius: 15px;
+        position: relative;
+        @include responsive-mobile(){
+            width: 100%;
+            overflow-x: hidden;
+            border-radius: 0px;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.card_header {
+  border: 2px solid red;
+  height: 447px;
+  background-image: url("../img/profile_photo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card_header .card_header__navbar {
+  color: header_text_color;
+}
+
+.card_header .card_header__navbar .card_header__navbar__middle {
+  text-align: center;
+}
+
+.card_header .card_header__navbar .card_header__navbar__right .hamburger {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.card_header .card_header__navbar .card_header__navbar__right .hamburger div {
+  width: 34px;
+  height: 4px;
+  background-color: black;
+  margin: 4px auto;
+}
+/*# sourceMappingURL=card_header.css.map */

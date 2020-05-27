@@ -1,0 +1,110 @@
+.card_header{
+    background-image: url('../img/profile_photo.png');
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 50% 50px;
+    border-bottom-right-radius: 50% 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+    height: 447px;
+    @include responsive-mobile(){
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    .card_header__navbar{
+        color: $header_text_color;
+        .card_header__navbar__left{
+            padding-left: 32px;
+            i{
+                font-size: 34px;
+                position: absolute;
+                bottom: 0px;
+                cursor: pointer;
+                &:hover{
+                    text-shadow: -1px 0 $second_main_color, 0 1px $second_main_color, 1px 0 $second_main_color, 0 -1px $second_main_color ;
+                }
+            }
+        }
+        .card_header__navbar__middle{
+            text-align: center;
+            margin-top: 32px;
+            font-family: $main_font;
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .card_header__navbar__right{
+            margin-top: 32px;
+            padding-right: 32px;
+            align-self: center;
+            .hamburger{
+                cursor: pointer;
+                width: fit-content;
+                margin-left: auto;
+                &:hover div{
+                    @include hover;
+                }
+                div{
+                    width: 34px;
+                    height: 4px;
+                    background-color: $header_text_color;
+                    margin: 4px auto;
+                }
+            }
+        }
+        .card_header__text__left{
+            padding-left: 80px;
+            @include responsive-mobile(){
+                padding-left: 0px;
+            }
+        }
+        .card_header__text__right{
+            padding-right: 80px;
+            @include responsive-mobile(){
+                padding-right: 0px;
+            }
+        }
+        .card_header__text{
+            div{
+                font-family: $main_font;
+                text-align: center;
+            }
+            .card_header__text__numbers{
+                font-family: $main_font;
+                font-size: 18px;
+                font-weight: 700;
+                margin: 240px 0px 6px;
+            }
+            .card_header__text__title{
+                font-family: $main_font;
+                font-size: 15px;
+                font-weight: 300;
+                text-transform: uppercase;
+                cursor: pointer;
+                &:hover{
+                    text-shadow: -1px 0 $second_main_color, 0 1px $second_main_color, 1px 0 $second_main_color, 0 -1px $second_main_color ;
+                }
+            }
+        }
+        .middle_circle{
+            height: 76px;
+            width: 76px;
+            background-color: $second_main_color;
+            position: absolute;
+            bottom: -38px;
+            left: 50%;
+            transform: translate(-50%);
+            border-radius: 50%;
+            span{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: $main_font;
+                font-size: 15px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
