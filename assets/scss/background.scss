@@ -1,4 +1,7 @@
 body{
+    -webkit-box-shadow: inset 0 0 200px #000000;
+    -moz-box-shadow: inset 0 0 200px #000000;
+    box-shadow: inset 0 0 200px #000000;
     margin: 0px;
     .main_background{
         position: fixed;
