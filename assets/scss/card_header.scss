@@ -55,13 +55,13 @@
         .card_header__text__left{
             padding-left: 80px;
             @include responsive-mobile(){
-                padding-left: 0px;
+                padding-left: 20px;
             }
         }
         .card_header__text__right{
             padding-right: 80px;
             @include responsive-mobile(){
-                padding-right: 0px;
+                padding-right: 20px;
             }
         }
         .card_header__text{

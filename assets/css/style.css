@@ -147,7 +147,7 @@ body .main_background {
 
 @media (max-width: 533px) {
   .card_header .card_header__navbar .card_header__text__left {
-    padding-left: 0px;
+    padding-left: 20px;
   }
 }
 
@@ -157,7 +157,7 @@ body .main_background {
 
 @media (max-width: 533px) {
   .card_header .card_header__navbar .card_header__text__right {
-    padding-right: 0px;
+    padding-right: 20px;
   }
 }
 
